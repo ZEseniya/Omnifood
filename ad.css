@@ -1,0 +1,49 @@
+@media only screen and (min-width :200px) and (max-width: 800px) {
+    .article {
+        width: 100%;
+        float: left;
+    }
+
+    .city {
+        float: left;
+        width: 100%
+    }
+
+    .user-comment {
+        float: left;
+        width: 100%
+    }
+
+    .plan {
+        float: left;
+        width: 100%;
+        margin: 5%
+    }
+    
+}
+
+@media only screen and (min-width : 800px) {
+    
+    .article {
+        width: 25%;
+        float: left;
+    }
+
+    .city {
+        float: left;
+        width: 21%;
+        margin-left: 4%
+    } 
+
+    .user-comment {
+        float: left;
+        width: 33%
+    }
+    
+    .plan {
+        float: left;
+        width: 27%;
+        margin: 5% 3%
+    }
+
+}
