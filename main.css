@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url(fonts/Lato-Light.ttf)
+    src: url(Lato-Light.ttf)
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 main {
     width: 100%;
     float: left;
-    font-family: 'Lato'
+    font-family: 'Lato', 'Arial Sans'
 }
 
 .logo {
@@ -36,9 +36,9 @@ main {
 nav {
     float: left;
     width: 65%;
-    margin-top: 2%;
+    margin-top: 7%;
     margin-left: 5%;
-    font-family: 'Lato';
+    font-family: 'Lato', 'Arial Sans';
     text-transform: uppercase    
 }
 
@@ -76,7 +76,7 @@ a {
     color: white;
     width: 100%;
     font-size: 200%;
-    font-family: 'Lato';
+    font-family: 'Lato', 'Arial Sans';
     text-transform: uppercase
 }
 
@@ -93,7 +93,7 @@ a {
     text-align: center;
     font-size: 200%;
     margin-top: 2%;
-    font-family: 'Lato';
+    font-family: 'Lato', 'Arial Sans';
     color: #555555;
     text-transform: uppercase
 }
@@ -299,7 +299,7 @@ hr {
     color: white;
     font-size: 200%;
     margin-top: 4%;
-    font-family: 'Lato';
+    font-family: 'Lato', 'Arial Sans';
     text-transform: uppercase
 }
 
@@ -468,7 +468,7 @@ input, select, textarea {
     border: 2px solid #cccccc;
     border-radius: 3px;
     padding: 2% 0% 2% 5%;
-    font-family: 'Lato';
+    font-family: 'Lato', 'Arial Sans';
     font-size: 100%
 }
 
